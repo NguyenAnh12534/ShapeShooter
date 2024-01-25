@@ -6,6 +6,8 @@ from entity.BaseEntity import BaseEnity
 
 enemy = Enemy(1)
 
+player = player(1)
+
 while(True):
     render()
 
