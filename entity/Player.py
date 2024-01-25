@@ -1,5 +1,5 @@
-from BaseEntity import BaseEnity
+from entity.BaseEntity import BaseEnity
 
 class Player(BaseEnity):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, id):
+        super.__init__(id)
